@@ -44,7 +44,7 @@ movie_recommendation_system/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/bert-movie-recommendation-system.git
+git clone https://github.com/VilokBhat/movie_recommendation_system_bert.git
 cd movie-recommendation-system
 ```
 
@@ -63,23 +63,8 @@ Run the main script:
 ```bash
 python main.py
 ```
-
-### Options
-
-- `--data_dir`: Directory for data files (default: "data")
-- `--n_clusters`: Number of clusters (default: 15)
-- `--optimize_clusters`: Find optimal number of clusters using silhouette scores
-- `--max_clusters`: Maximum number of clusters to try during optimization (default: 30)
-- `--force_preprocess`: Force preprocessing of data
-- `--force_extract`: Force extraction of features
-- `--force_train`: Force training of model
-- `--example`: Show example recommendations
-- `--interactive`: Interactive mode for querying recommendations
-
-### Example
-
 ```bash
-python main.py --optimize_clusters --example --interactive
+python app.py
 ```
 
 ## How It Works
